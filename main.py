@@ -6,23 +6,12 @@ class Coating():
         self.color = None
         self.price = None
         self.cost = 0
-<<<<<<< HEAD
-    def __init__(self):
-        pass
-    
-    def get_info(self):
-        pass
-        
-    def output_price(self):
-        pass
-=======
     def get_info(self):
         self.part = input(f"Введите название детали, Например {self.parts}: ")
         self.color = input(f"Введите цвет детали, Например: {self.colors}: ")
         
     def output_price(self):
         print(f"Цена покраски детали \"{self.part}\" в {self.color} составляет {self.price} рублей")
->>>>>>> feature/2
     
     def part_coefficient(self):
         pass
